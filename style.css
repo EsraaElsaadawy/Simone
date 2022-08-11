@@ -1,0 +1,506 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.lineHeight{
+    line-height: 1.6;
+}
+.home{
+    background-image: url(images/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+.navbarItem{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.hover{
+    color: #20c997;
+}
+.navbarItem:hover{
+    color: #20c997;
+}
+.navbar-nav li{
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+.navbar-nav ul{
+    display: flex;
+    align-items: center;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+}
+
+h1::after{
+    content:"|";
+    animation-name: typing;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0% {content: "|";}
+    0.6% {content: " I|";}
+    1.2% {content: " I'|";}
+    1.8%,25% {content: "I'm|";}
+    2.4%,22.6% {content: " I'm S|";}
+    3%,22% {content: "I'm Si|";}
+    3.6%,21.4% {content: "I'm Sim|";}
+    4.2%,20.8% {content: "I'm Simo|";}
+    4.8%,20.2% {content: "I'm Simon|";}
+    5.4%,19.6% {content: "I'm Simone|";}
+    6%,19% {content: "I'm Simone O|";}
+    6.6%,18.4% {content: "I'm Simone Ol|";}
+    7.2%,17.8% {content: "I'm Simone Oli|";}
+    7.8%,17.2% {content: "I'm Simone Oliv|";}
+    8.4%,16.6% {content: "I'm Simone Olivi|";}
+    9%,16% {content: "I'm Simone Olivia|";}
+
+    25%,50% {content: "I'm|";}
+    25.6%,49.4% {content: "I'm a|";}
+    26.2%,48.8% {content: "I'm a F|";}
+    26.8%,48.2% {content: "I'm a Fr|";}
+    27.4%,47.6% {content: "I'm a Fre|";}
+    28%,47% {content: "I'm a Free|";}
+    28.6%,46.4% {content: "I'm a Freel|";}
+    29.2%,45.8% {content: "I'm a Freela|";}
+    29.8%,45.2% {content: "I'm a Freelan|";}
+    30.4%,44.6% {content: "I'm a Freelanc|";}
+    31%,44% {content: "I'm a Freelance|";}
+    31.6%,43.4% {content: "I'm a Freelancer|";}
+    32.2%,42.8% {content: "I'm a Freelancer.|";}
+
+     50%,75% {content: "I'm|";}
+    50.6%,74.4% {content: "I'm a|";}
+    51.2%,73.8% {content: "I'm a P|";}
+    51.8%,73.2% {content: "I'm a Ph|";}
+    52.4%,72.6% {content: "I'm a Pho|";}
+    53%,72% {content: "I'm a Phot|";}
+    53.6%,71.4% {content: "I'm a Photo|";}
+    54.2%,70.8% {content: "I'm a Photog|";}
+    54.8%,70.2% {content: "I'm a Photogr|";}
+    55.4%,69.6% {content: "I'm a Photogra|";}
+    56%,69% {content: "I'm a Photograp|";}
+    56.6%,68.4% {content: "I'm a Photographe|";}
+    57.2%,67.8% {content: "I'm a Photographer.|";}
+
+    75%,100% {content: "I'm|";}
+    75.6%,99.4% {content: "I'm a|";}
+    76.2%,98.8% {content: "I'm a D|";}
+    76.8%,98.2% {content: "I'm a De|";}
+    77.4%,97.6% {content: "I'm a Des|";}
+    78%,97% {content: "I'm a Desi|";}
+    78.6%,96.4% {content: "I'm a Desig|";}
+    79.2%,95.8% {content: "I'm a Design|";}
+    79.8%,95.2% {content: "I'm a Designe|";}
+    80.4%,94.6% {content: "I'm a Designer|";}
+    81%,94% {content: "I'm a Designer.|";}
+}
+.content button {
+    color: #20c997;
+    border-color: #20c997;
+    background-color: transparent;
+    border-radius: 50px;
+    padding:10px 20px;
+}
+ .hireMe:hover{
+    background-color:#20c997;
+    color: white;
+}
+.padding{
+    padding: 72px 0;
+    position: relative;
+}
+.margin{
+    margin: 0 70px;
+}
+.secondaryTitle::after{
+    content: "";
+    width: 65px;
+    height: 3px;
+    position: absolute;
+    bottom: -4px;
+    background-color: #19a077;
+}
+.knowMeMore p span {
+    color: #20c997;
+}
+.paragraphs{
+    width: 50%;
+}
+.fontBold{
+    font-weight: bold;
+}
+.borderZero{
+    border: 0;
+}
+.email{
+    color: #19a077;
+}
+.knowMeMore ul li{
+    list-style-type: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.cV{
+    width: 30%;
+}
+.aboutMe{
+    display: flex;
+    margin-left: 10%;
+}
+.downloadCv{
+    color: white;
+    background-color: #20c997;
+    border: 0;
+    border-radius: 19px;
+    padding: 10px 20px;
+    margin-left: 45px;
+}
+.downloadCv:hover{
+    background-color: #19a077;
+}
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icon{
+    width: 35%;
+    display: flex;
+}
+.whatIDo{
+    background-color: #f8f9fa;
+}
+.secondaryTitle{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+}
+.whiteBox{
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+    padding: 5px 20px;
+    margin: 20px 10px;
+}
+.myEducation{
+    padding-right: 10px;
+}
+.myExperience{
+    padding-left: 10px;
+}
+.years{
+    background-color: #20c997;
+    color: white;
+    width: 20%;
+    padding:2.5px 5px;
+    text-align: center;
+    border-radius: 4px;
+}
+.university{
+    color: #dc3545;
+}
+.mySkills{
+    display: flex;
+}
+.resumeContainer{
+    margin: 0 100px;
+}
+.mySkills ul {
+    columns: 2;
+    width: 100%;
+}
+.mySkills ul li {
+    list-style-type: none;
+}
+.mySkills p{
+    margin: 20px;
+}
+.progress{
+    width: 550px;
+    height: 5px;
+    background-color: rgb(204, 201, 201);
+}
+.webDesign::after{
+    content: "";
+    width: 430px;
+    height: 5px;
+    background-color: #20c997;
+    position: absolute;
+    border-radius: 2px;
+} 
+.HTML::after{
+    content: "";
+    width: 530px;
+    height: 5px;
+    background-color: #20c997;
+    position: absolute;
+    border-radius: 2px;
+} 
+.javaScript::after{
+    content: "";
+    width: 480px;
+    height: 5px;
+    background-color: #20c997;
+    position: absolute;
+    border-radius: 2px;
+} 
+.react::after{
+    content: "";
+    width: 440px;
+    height: 5px;
+    background-color: #20c997;
+    position: absolute;
+    border-radius: 2px;
+} 
+.angular::after{
+    content: "";
+    width: 420px;
+    height: 5px;
+    background-color: #20c997;
+    position: absolute;
+    border-radius: 2px;
+} 
+.bootstrap::after{
+    content: "";
+    width: 540px;
+    height: 3px;
+    background-color: #20c997;
+    position: absolute;
+    border-radius: 2px;
+} 
+.percent{
+    display: flex;
+    justify-content: space-between;
+}
+.download{
+    color: #6c757d;
+    border-color: #6c757d;
+    padding: 10 20;
+    border-radius: 20px;
+    text-align:center;
+    background-color: transparent;
+    width: 150px;
+}
+.download:hover{
+    background-color: #212529;
+    color: white;
+}
+.textAlign{
+    text-align: center;
+    margin-top: 20px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 25%;
+    margin: 10px 10px;
+}
+.img img {
+    width:100%;
+    margin-bottom: 20px;
+}
+.myWork{
+    background-color: #f8f9fa;
+}
+.BGGray{
+    background-color: #f8f9fa;
+    width: 30%;
+    margin: 0 15px;
+    padding: 20;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.nameAndJob{
+    padding-left:10px ;
+}
+.flex img{
+    border-radius: 50%;
+}
+.feedBack{
+    display: flex;
+    justify-content: center;
+}
+.getInTouch{
+    background-color: #f8f9fa;
+}
+.note{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+justify-content: center;}
+.name, .email{
+    width: 47%;
+}
+.form-control{
+    padding: 10px;
+    
+border-width: 1px;border-radius: 3px;border-color: rgba(0,0,0,0.2);font-size: 15px;}
+.name{
+    margin-right: 6%;
+}
+.message{
+    width: 100%;
+    margin-top: 20px;
+}
+.address{
+    width: 24%;
+padding-right: 10%;box-sizing: border-box;}
+.mainTitle{
+    color: #dee3e4;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size:100px;
+    position: absolute;
+    margin: 0;
+}
+.titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.simone{
+    color: #20c997;
+    text-decoration: none;
+}
+.links a{
+    padding-left: 30px;
+    padding-right: 30px;color: #252b33;
+    text-decoration: none;
+}
+.terms {
+    position: relative;
+}
+.menu li:hover{
+    color:#20c997 ;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    list-style: none;
+    padding: 0px 20px;
+}
+.info h3 {
+    margin: 0;
+}
+.info{
+    margin: 20px;
+}
+
+.contacts {display: flex;align-items: center;}
+
+.send {width: 50%;}
+.sendMessage:hover{
+    background-color: #19a077;
+}
+button.sendMessage {background-color: #1BAB81;color: white;border-radius: 44px;padding: 10px 20px;font-size: 20px;border: 0;margin-top: 30px;}
+
+.contacts p {margin: 2px;}
+
+.links {display: flex;align-items: center;}
+@media screen and (max-width:991px){
+    .navbar-nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .aboutMe{
+        display: block;
+    }
+    .paragraphs {
+        width: 100%;
+        text-align: center;
+    }
+    .links ,.test{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    .feedBack ,.footer ,.images, .footer {
+        display: flex;
+        flex-wrap: wrap;
+    align-items: center;}
+    .cV , .BGGray {
+        width: 100%;
+    }
+    .img{
+        width: 40%;
+    }
+}
+@media screen and (max-width:767px){
+
+    .numbers , .skills , .feedBack ,.note {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .number{
+        width: 50%;
+    }
+    .myEducation, .myExperience ,.icon ,.whiteBox ,.BGGray{
+        width: 90%;
+    }
+    .address , .send {
+        width: 100%;
+        text-align: center;
+    display: flex;flex-direction: column;justify-content: center;align-items: center;}
+}
+@media screen and (max-width:575px){
+    .img{
+        width: 95%;
+    }
+}
